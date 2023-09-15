@@ -1,5 +1,13 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .presentacion {
+    width: 100%;
+    height: 100vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -13,7 +21,7 @@
     align-items: center;
     flex-direction: row;
     height: 60vh;
-    width: 80vw;
+    width: 85vw;
 }
 
 .presentacionCont2 {
@@ -76,8 +84,8 @@ a {
 }
 
 .presentacionCuadroImg {
-    width: 18vw;
-    height: 590px;
+    width: 350px;
+    height: 450px;
     border-radius: 3%;
     background-color: #bf9d06;
     position: relative;
@@ -94,14 +102,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18vw;
+    width: 350px;
+    height: 450px;
     background-color: rgb(245, 242, 242);
     border-radius: 5%;
 }
 
 .presentacionImg {
-    width: 450px;
-    height: 570px;
+    width: 350px;
+    height: 450px;
     border-radius: 5%;
 }
 

@@ -8,7 +8,7 @@
 }
 
 .iconDevImg {
-    width: 85px;
+    width: 50px;
     margin: 10px;
     filter: invert(96%) sepia(100%) saturate(12%) hue-rotate(276deg) brightness(105%) contrast(100%);
     animation: girarcodigo linear infinite 3s;
@@ -32,7 +32,8 @@
     }
     
     .iconDevImg {
-        width: 45px;
+        width: 25px;
+        height: 25px;
         margin: 10px;
         filter: invert(96%) sepia(100%) saturate(12%) hue-rotate(276deg) brightness(105%) contrast(100%);
         animation: girarcodigo linear infinite 3s;
