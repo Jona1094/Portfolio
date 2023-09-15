@@ -1,24 +1,10 @@
 
 .portfolioProyectos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(6, 5, 5);
-}
-
-.portfolio.aparecer {
-    animation: movertexto 1.5s both;
-}
-
-@keyframes movertexto {
-    0% {
-        opacity: 0;
-        transform: translateX(700px);
-    }
-    100% {
-        opacity: 1;
-        transform: none;
-    }
+    background-color: rgb(0, 0, 0);
 }
 
 .portfolioProyectosContainer {
@@ -29,22 +15,33 @@
     width: 100vw;
 }
 
-.portfolioProyectos__TituloCont {
-    background-color: rgb(6, 5, 5);
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .portfolioProyectos__Titulo {
-    background-color: rgb(6, 5, 5);
+    background-color: rgb(0, 0, 0);
     color: rgb(244, 243, 241);
     text-align: center;
-    width: 100vw;
-    height: 75px;
-    font-family: 'Inter', sans-serif;
-    font-size: 4.2rem;
+    
+    height: 80px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    transition: color 0.3s ease;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.portfolioProyectos__Titulo::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f9fdff; 
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.portfolioProyectos__Titulo:hover::before {
+    width: 100%;
 }
 
 .portfolio {
@@ -56,15 +53,38 @@
     height: auto;
     margin: 2rem;
     padding: 1rem;
-    opacity: 0;
     border-left: solid white 5px;
     border-bottom: solid white 5px;
+}
+
+.portfolio:hover {
+    transform: scale(1.05);
+    border-left: solid #bf9d06 5px;
+    border-bottom: solid #bf9d06 5px;
 }
 
 .portfolioImg {
     width: 650px;
     height: 400px;
     object-fit: cover;
+}
+
+.flechaAbajo {
+    margin-left: 1rem;
+    width: 32px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: alternate infinite moverFlecha 1s;
+}
+
+@keyframes moverFlecha {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 .portfolioTitulo {
@@ -98,8 +118,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(6, 5, 5);
-     
+        background-color: rgb(0, 0, 0);
     }
     
     .portfolioProyectosContainer {
@@ -112,19 +131,23 @@
     
     .portfolioProyectos__TituloCont {
         background-color: rgb(6, 5, 5);
-        height: 40px;
+        height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .portfolioProyectos__Titulo {
-        background-color: rgb(6, 5, 5);
+        background-color: rgb(0, 0, 0);
         color: rgb(244, 243, 241);
         text-align: center;
-        height: 35px;
-        font-family: 'Inter', sans-serif;
-        font-size: 2rem;
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    .flechaAbajo {
+        display: none;
     }
     
     .portfolio {
@@ -135,7 +158,6 @@
         width: 320px;
         height: 450px;
         margin: 1rem;
-        opacity: 0;
         border-left: none;
         border-bottom: none;
         border: solid rgb(255, 255, 255) 1px;

@@ -56,11 +56,11 @@
     }
     
     .tecnologias {
-        height: 100%;
+        width: 100vw;
+        height: 40vh;
         background-color: rgb(244, 248, 247);
         display: flex;
         flex-wrap: wrap;
-        
     }
     
     .tecnologiaTec {
@@ -71,8 +71,8 @@
     }
     
     .tecnologiasImg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     
     .tecnologiasDiv {
@@ -98,7 +98,7 @@
         color: rgb(6, 7, 8);
         font-size: 2rem;
         font-family: 'Phudu', cursive;
-        margin-bottom: 0;
         margin-top: 10px;
+        height: 10%;
     }
 }

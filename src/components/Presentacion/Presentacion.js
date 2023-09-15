@@ -31,7 +31,10 @@ const Presentacion = () => {
             <h1 className='presentacionInfo__Prof'>SOBRE MI</h1>
                 <p className='presentacionCont2__Text1'>
                 Me forme como Desarrollador Web, gracias al Proyecto Dalto, creado y dirigido por Lucas Dalto.<br/> 
-                Fui seleccionado entre 13.500. Aprendí herramientas como HTML, CSS, Javascript, React Js, Node Js, Git y Github. Actualmente me oriento más al Frontend, ya que soy un
+                Fui seleccionado entre 13.500. Aprendí herramientas como HTML, CSS, Javascript, React Js, Node Js, Git y Github.
+                </p>
+                <p className='presentacionCont2__Text1'>
+                Actualmente me oriento más al Frontend, ya que soy un
                 apasionado por el Diseño, aunque sigo aprendiendo más sobre el Backend para ampliar mis conocimientos.
                 </p>
                 <p className='presentacionCont2__Text1'>

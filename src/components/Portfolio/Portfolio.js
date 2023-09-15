@@ -1,4 +1,5 @@
 import './portfolio.css'
+import flechaAbajo from '../Assets/flechaAbajo.png'
 import { useInView } from 'react-intersection-observer';
 
 const Portfolio = () => {
@@ -29,18 +30,13 @@ const Portfolio = () => {
     }
 
     return (
-        <div className='containerPort'>
-            <div className='portfolioProyectos__TituloCont'>
-                <h1 className='portfolioProyectos__Titulo'>
-                    PROYECTOS
-                </h1>
-        </div>
            <div className='portfolioProyectos'>
+            <h1 className='portfolioProyectos__Titulo'>ALGUNOS DE MIS PROYECTOS<img className='flechaAbajo' src={flechaAbajo}/></h1>
             <div className='portfolioProyectosContainer'>
                 {portfolioLista}
             </div>
         </div>
-        </div>
+       
         
     )
 }

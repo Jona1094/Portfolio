@@ -23,8 +23,8 @@ function App() {
         <div>
           <Header/>
           <Presentacion/>
-          <Tecnologias/>
           <Portfolio/>
+          <Tecnologias/>
           </div>
       )}
     </div>
