@@ -1,0 +1,30 @@
+.logo {
+    width: 350px;
+    height: 350px;
+    animation: logo alternate 1s;
+}
+
+@keyframes logo {
+    0% {
+        width: 350px;
+        height: 0px;
+    }
+    25% {
+        width: 350px;
+        height: 30px;
+    }
+    50% {
+        width: 350px;
+        height: 60px;
+    }
+
+    75% {
+        width: 350px;
+        height: 100px;
+    }
+
+    100% {
+        width: 350px;
+        height: 150px;
+    }
+}

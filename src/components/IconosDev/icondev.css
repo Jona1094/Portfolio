@@ -1,0 +1,40 @@
+.iconDevCont {
+    width: 20vw;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.iconDevImg {
+    width: 85px;
+    margin: 10px;
+    filter: invert(96%) sepia(100%) saturate(12%) hue-rotate(276deg) brightness(105%) contrast(100%);
+    animation: girarcodigo linear infinite 3s;
+}
+
+@keyframes girarcodigo {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .iconDevCont {
+        display: flex;
+        justify-content: center ;
+        flex-direction: row;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+    }
+    
+    .iconDevImg {
+        width: 45px;
+        margin: 10px;
+        filter: invert(96%) sepia(100%) saturate(12%) hue-rotate(276deg) brightness(105%) contrast(100%);
+        animation: girarcodigo linear infinite 3s;
+    }
+}

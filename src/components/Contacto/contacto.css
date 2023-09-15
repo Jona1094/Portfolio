@@ -1,0 +1,18 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.contactoForm__Label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
