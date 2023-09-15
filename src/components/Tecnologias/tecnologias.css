@@ -57,10 +57,10 @@
     
     .tecnologias {
         width: 100vw;
-        height: 40vh;
+        height: 60vh;
         background-color: rgb(244, 248, 247);
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
     .tecnologiaTec {
